@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-logout, .btn-sugestao {
+    background-color: rgba(255, 0, 0, 0.26);
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+}
+
+.btn-logout:hover {
+    background-color: rgba(255, 0, 0, 0.356);
+    text-decoration: underline;
+    transition: 500ms;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 60%;
+}
+
+.btn-sugestao {
+    width: 200px;
+    background-color: rgba(146, 230, 255, 0.507);
+    color: blue;
+}
